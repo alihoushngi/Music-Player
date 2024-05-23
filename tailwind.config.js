@@ -6,9 +6,10 @@ export default {
       colors: {
         primary: "#1c252e",
         secondary: "#263240",
-        playerColor: "f5ba22",
-        textColor: "cdcbca",
-        warnColor: "fd5749",
+        playerColor: "#f5ba22",
+        textColor: "#cdcbca",
+        warnColor: "#fd5749",
+        lineColor: "#40403e",
       },
     },
   },
