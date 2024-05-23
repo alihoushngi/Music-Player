@@ -1,9 +1,14 @@
 const LeftSidebar = () => {
   return (
-    <aside className="flex w-1/6 border-r border-lineColor px-5 py-9">
+    <aside className="flex flex-col w-1/6 border-r border-lineColor px-5 py-9">
       {/*! --- logo wrapper --- */}
-      <section>
-        <img src="" alt="APlayer Logo" />
+      <section className="flex justify-center items-center">
+        <img
+          src="/images/logoWithNameRight.png"
+          alt="APlayer Logo with text"
+          width={150}
+          className="text-center"
+        />
       </section>
       {/* --- LeftSidebar menu section */}
       <section></section>
