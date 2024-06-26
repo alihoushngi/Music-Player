@@ -1,6 +1,6 @@
 import "./App.css";
 import DesktopLayout from "./components/Base/DesktopLayout/DesktopLayout";
-import WelcomeSection from "./components/Shared/WelcomeSection/WelcomeSection";
+import WelcomeSection from "./components/Home/WelcomeSection/WelcomeSection";
 
 function App() {
   return (
