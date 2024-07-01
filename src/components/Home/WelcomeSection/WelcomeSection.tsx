@@ -26,9 +26,9 @@ const WelcomeSection = () => {
 
   return (
     <section className="flex justify-between items-center">
-      <div className="flex flex-col">
-        <span className="font-medium text-4xl">{welcomeMessage}</span>
-        <span className="font-normal text-md">Ali Houshangi</span>
+      <div className="flex justify-center items-center text-3xl font-medium gap-3 capitalize">
+        <span>{welcomeMessage}</span>
+        <span className="text-playerColor">Ali Houshangi</span>
       </div>
       <span className="bg-playerColor px-6 rounded-md text-primary">
         {time.toLocaleTimeString()}

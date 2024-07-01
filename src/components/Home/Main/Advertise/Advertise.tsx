@@ -1,6 +1,6 @@
 const AdvertiseSection = () => {
   return (
-    <section className="adBg flex flex-col justify-between w-full bg-[#164f8c] px-6 py-7 rounded-[15px] mt-7 relative overflow-hidden">
+    <section className="adBg flex flex-col justify-between w-full bg-[#164f8c] px-6 py-3 rounded-[15px] mt-4 relative overflow-hidden">
       <img
         src="/images/General/AdvertiseBg.png"
         alt="advertise background"
@@ -13,7 +13,7 @@ const AdvertiseSection = () => {
         </span>{" "}
         now its easier
       </h3>
-      <span className="mt-5 font-extralight">
+      <span className="mt-3 font-extralight">
         A new experience of listening to music is at your fingertips
       </span>
     </section>

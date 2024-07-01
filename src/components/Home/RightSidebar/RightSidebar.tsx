@@ -1,6 +1,6 @@
 const RightSidebar = () => {
   return (
-    <aside className="flex w-1/5 justify-center">
+    <aside className="flex w-1/6 justify-center">
       {/*! --- logo wrapper --- */}
       <section>{/* <img src="" alt="APlayer Logo" /> */}</section>
       {/* --- RightSidebar menu section */}

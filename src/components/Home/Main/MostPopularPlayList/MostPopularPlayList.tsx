@@ -3,7 +3,7 @@ import PlayListCard from "../../../Shared/PlayListCard/PlayListCard";
 
 const MostPopularPlayList = () => {
   return (
-    <section className="adBg flex flex-col justify-between w-full mt-7">
+    <section className="adBg flex flex-col justify-between w-full mt-4">
       <div className="flex justify-between w-full items-center">
         <h2 className="capitalize font-medium text-2xl">
           most popular playlist
@@ -12,7 +12,7 @@ const MostPopularPlayList = () => {
           see more
         </span>
       </div>
-      <div className="flex justify-between w-full items-center mt-4 gap-3">
+      <div className="flex w-full items-center mt-4 gap-3">
         {MainPopularPlayList &&
           MainPopularPlayList.map((playlists, index) => {
             return (

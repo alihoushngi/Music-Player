@@ -6,9 +6,9 @@ import WelcomeSection from "./components/Home/WelcomeSection/WelcomeSection";
 
 function App() {
   return (
-    <div className="flex justify-between min-h-screen">
+    <div className="flex justify-start min-h-screen">
       <DesktopLayout>
-        <main className="w-4/6 px-5 py-9">
+        <main className="w-4/7 px-5 py-9">
           <WelcomeSection />
           <AdvertiseSection />
           <MostPopularPlayList />
