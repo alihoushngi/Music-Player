@@ -1,12 +1,12 @@
 const AdvertiseSection = () => {
   return (
-    <section className="adBg flex flex-col justify-between w-full bg-[#2862a2] px-6 py-7 rounded-[40px] mt-5 relative overflow-hidden">
+    <section className="adBg flex flex-col justify-between w-full bg-[#164f8c] px-6 py-7 rounded-[15px] mt-7 relative overflow-hidden">
       <img
-        src="/public/images/AdvertiseBg.png"
+        src="/images/General/AdvertiseBg.png"
         alt="advertise background"
-        className="absolute bg-contain bg-right-bottom bg-no-repeat top-0 left-0 right-0 opacity-20"
+        className="absolute bg-contain bg-right-bottom bg-no-repeat top-0 left-0 opacity-20 w-full"
       />
-      <h3 className="text-4xl font-semibold">
+      <h3 className="text-2xl font-semibold">
         Play The Music You Like , Explore songs, <br />
         <span className="text-playerColor inline drop-shadow-lg">
           Listen any time and anywhere

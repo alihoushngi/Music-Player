@@ -5,7 +5,7 @@ const SidebarPlayList = () => {
       <div className="flex justify-between items-center">
         <span className="text-sm">Playlist</span>
         <img
-          src="/images/AddPlayList.png"
+          src="/images/Sidebar/AddPlayList.png"
           alt="sidebar Icon"
           width={25}
           className="w-5 h-5"

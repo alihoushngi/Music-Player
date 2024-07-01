@@ -27,7 +27,7 @@ const WelcomeSection = () => {
   return (
     <section className="flex justify-between items-center">
       <div className="flex flex-col">
-        <span className="font-medium text-3xl">{welcomeMessage}</span>
+        <span className="font-medium text-4xl">{welcomeMessage}</span>
         <span className="font-normal text-md">Ali Houshangi</span>
       </div>
       <span className="bg-playerColor px-6 rounded-md text-primary">

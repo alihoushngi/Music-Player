@@ -5,7 +5,7 @@ const SidebarGeneralList = () => {
         <li>
           <a href="/setting" className="flex gap-2 items-center">
             <img
-              src="/images/setting.png"
+              src="/images/Sidebar/setting.png"
               alt="Setting icon"
               width={25}
               className="w-5 h-5"
@@ -16,7 +16,7 @@ const SidebarGeneralList = () => {
         <li>
           <a href="/" className="flex gap-2 items-center">
             <img
-              src="/images/logout.png"
+              src="/images/Sidebar/logout.png"
               alt="Logout icon"
               width={25}
               className="w-5 h-5"

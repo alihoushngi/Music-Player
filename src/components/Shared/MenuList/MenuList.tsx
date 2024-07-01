@@ -7,7 +7,7 @@ const MenuList = () => {
       <div className="flex justify-between items-center">
         <span className="text-sm">Menu</span>
         <img
-          src="/images/sidebar.png"
+          src="/images/Sidebar/sidebar.png"
           alt="sidebar Icon"
           width={25}
           className="w-5 h-5"
