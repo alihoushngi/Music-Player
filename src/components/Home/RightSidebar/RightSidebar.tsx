@@ -5,7 +5,7 @@ import UserProfile from "../RightSidebarComponents/UserProfile/UserProfile";
 
 const RightSidebar = () => {
   return (
-    <aside className="flex w-1/6 justify-center">
+    <aside className="flex w-[20%] px-5 py-9">
       <UserProfile />
       <Friend />
       <RecentPlayed />

@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="flex justify-start min-h-screen">
       <DesktopLayout>
-        <main className="w-4/7 px-5 py-9">
+        <main className="w-[60%] px-5 py-9">
           <WelcomeSection />
           <AdvertiseSection />
           <MostPopularPlayList />
