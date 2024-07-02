@@ -3,7 +3,7 @@ import PlayListCard from "../../../Shared/PlayListCard/PlayListCard";
 
 const MostPopularPlayList = () => {
   return (
-    <section className="adBg flex flex-col justify-between w-full mt-4">
+    <section className="flex flex-col justify-between w-full mt-4">
       <div className="flex justify-between w-full items-center">
         <h2 className="capitalize font-medium text-2xl">
           most popular playlist
